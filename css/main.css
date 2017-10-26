@@ -27,6 +27,7 @@ line-height: 1.6;
 p.abmcaption {
   overflow: hidden;
   height: 50px;
+  color: white;
 }
 
 .abm {
