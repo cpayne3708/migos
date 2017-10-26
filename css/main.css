@@ -1,9 +1,17 @@
+html {
+  background: #222222;
+}
 body {
-  background-color:#d8a736;
+background: #222222;
   text-align:center;
 font-family: 'Josefin Sans', sans-serif !important;
 padding:0;
 margin:0;
+}
+
+.main {
+  background-color:#d8a736;
+  padding:10px 0px 60px 0px;
 }
 
 h1 {
@@ -11,6 +19,34 @@ width:100%;
 font-size:64px;
 color:white;
 }
+
+p {
+line-height: 1.6;
+}
+
+p.abmcaption {
+  overflow: hidden;
+  height: 50px;
+}
+
+.abm {
+  width: 33.333%;
+  float: left;
+}
+
+@media screen and (max-width: 900px) {
+  .abm {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .abm {
+    width: 100% !important;
+  }
+}
+
+
 
 img.bigimage {
 box-shadow:0px 5px 50px rgba(0,0,0,.8);
@@ -23,6 +59,8 @@ background-color:#eeeeee;
 padding:10px 50px;
 text-align:left;
 }
+
+
 
 .album {
   width: 85%;
